@@ -1,0 +1,127 @@
+body
+{
+    background-color: seagreen;
+    color: floralwhite;
+    font-size: 10mm;
+    background-attachment: fixed;
+}
+
+table
+{
+    border: solid 3px floralwhite;
+    border-collapse: collapse;
+    font-size: 10mm;
+    background-color: rgba(0, 0, 0, 0.521);
+}
+
+div
+{
+    margin: auto;
+    width: fit-content;
+    border: solid 4px burlywood;
+    border-radius: 0.4em;
+    padding: 0.3em;
+    background-color: rgba(0, 0, 0, 0.521);
+    box-shadow: 6px 6px 6px #222222;
+}
+
+td
+{
+    padding: 0.5em;
+    border: solid 1px floralwhite;
+}
+
+th
+{
+    border: solid 1px rgb(32, 32, 32);
+    background-color: antiquewhite;
+    color: rgb(32, 32, 32);
+    padding: 0.6em;
+    font-size: 10mm;
+}
+
+#btnInsertarJugador, #btnVolverAListaEquipos
+{
+    float: right;
+    font-size: 7mm;
+}
+
+#btnVolverAListaEquipos:hover
+{
+    background-color: antiquewhite;
+    color: rgb(32, 32, 32);
+}
+
+#btnVolverAListaEquipos
+{
+    color: floralwhite;
+}
+
+#btnTable
+{
+    width: 100%;
+    height: 4em;
+    font-size: 7mm;
+}
+
+#btnTable:hover, #btnInsertarJugador:hover
+{
+    background-color: rgb(32, 32, 32);
+    color: antiquewhite;
+}
+
+#tdBtnTable
+{
+    padding : 0;
+}
+
+
+#campoTexto
+{
+    float: right;
+    font-size: 7mm;
+    margin-left: 1em;
+}
+
+#selectEquipo
+{
+    float: right;
+    font-size: 8mm;
+    margin-left: 1em;
+}
+
+#mensajeGrande
+{
+    font-size: 13mm;
+    margin: auto;
+}
+
+#imgPlayers
+{
+    height: auto;
+}
+
+#tituloPagina
+{
+    padding: 0em;
+    margin: auto;
+    width: 100%;
+}
+
+#nombreEquipoGrande
+{
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+
+#tdNombreEquipo
+{
+    visibility: unset;
+}
+
+tr:hover
+{
+    background-color: rgba(250, 235, 215, 0.705);
+    color: rgb(32, 32, 32);
+}
