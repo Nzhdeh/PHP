@@ -1,0 +1,32 @@
+//es la petición
+
+POST /server/payment HTTP/1.1
+Host: www.myserver.com              //aqui iria el nombre de mi servidor
+Content-Type: application/x-www-form-urlencoded
+Accept: application/json
+Cache-Control:max-age=0
+Connection:keep-alive
+
+//es la respuesta
+
+HTTP/1.1 201 Created
+Content-Type: application/json;charset=utf-8
+Location: https://www.myserver.com/services/payment/3432
+Cache-Control:max-age=21600
+Connection:close
+ETag:"2cc8-3e3073913b100"
+Expires:Mon, 23 Jul 2012 20:20:19 GMT
+
+//peticion
+GET/rest/Equipo HTTP/1.1
+Host: www.myserver.com
+
+//respuesta
+HTTP/1.1 200 OK
+Content-Tyoe: application/json;charset=utf-8
+
+[
+    "http://www.server.com/rest/Equipo/1",
+    "http://www.server.com/rest/Equipo/2",
+    "http://www.server.com/rest/Equipo/3"
+]
