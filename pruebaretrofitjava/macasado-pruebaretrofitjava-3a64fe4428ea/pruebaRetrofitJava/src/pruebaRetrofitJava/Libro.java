@@ -1,18 +1,26 @@
 package pruebaRetrofitJava;
 
 public class Libro {
-	private int id;
-	private String createdAt;
-	private String updatedAt;
+	private int codigo;
 	private String titulo;
 	private String numpag;
 
+	public Libro(int codigo, String titulo, String numpag) {
+		this.codigo = codigo;
+		this.titulo = titulo;
+		this.numpag = numpag;
+	}
+
+	public Libro(String titulo, String numpag) {
+		this.titulo = titulo;
+		this.numpag = numpag;
+	}
 	
 	public int getId() {
-		return id;
+		return codigo;
 	}
-	public void setId(int id) {
-		this.id = id;
+	public void setId(int codigo) {
+		this.codigo = codigo;
 	}
 	public String getNumpag() {
 		return numpag;
@@ -26,19 +34,4 @@ public class Libro {
 	public void setTitulo(String titulo) {
 		this.titulo = titulo;
 	}
-	public String getCreatedAt() {
-		return createdAt;
-	}
-	public void setCreatedAt(String createdAt) {
-		this.createdAt = createdAt;
-	}
-	public String getUpdatedAt() {
-		return updatedAt;
-	}
-	public void setUpdatedAt(String updatedAt) {
-		this.updatedAt = updatedAt;
-	}
-	
-	
-
 }

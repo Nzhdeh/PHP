@@ -7,6 +7,7 @@
 class Controller
 {
 
+    //hecho
     public function manageGetVerb(Request $request)
     {
         $response = new Response('405', null, null, $request->getAccept());
@@ -31,6 +32,7 @@ class Controller
         $response->generate();
     }
 
+    //hecho
     public function manageDeleteVerb(Request $request)
     {
         $response = new Response('405', null, null, $request->getAccept());

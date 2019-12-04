@@ -43,9 +43,26 @@ public class Principal {
 							   .build();
 		
 		LibroInterface libroInter = retrofit.create(LibroInterface.class);
-		
-		libroInter.getLibro(1).enqueue(libroCallback);
-		
+
+		//get por id
+		//libroInter.getLibro(5).enqueue(libroCallback);
+		//get de la colección
+		//libroInter.getLibro().enqueue(listLibroCallback);
+
+		//delete de un libro por id
+		//libroInter.deleteLibro(5).enqueue(callbackVoid);
+
+		/*Esto no va*/
+		//libroInter.postLibro("Nuevo Libro 3000", "350").enqueue(new Callback<Void>() {
+
+
+		//creacion de un libro
+		//libroInter.postLibro(new Libro("La demo", "350")).enqueue(callbackVoid);
+
+		//actualizacion de un libro por id
+		//libroInter.putLibro(13, new Libro("El libro para llorar2", "250")).enqueue(callbackVoid);
+
+
 
 	}
 
