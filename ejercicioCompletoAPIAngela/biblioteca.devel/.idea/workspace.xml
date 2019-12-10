@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4ab879b7-9749-4095-b10c-9bb69d7adcfc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../EjemploRetrofit2/out/production/EjemploRetrofit2/CallbackVoid.class" beforeDir="false" afterPath="$PROJECT_DIR$/../EjemploRetrofit2/out/production/EjemploRetrofit2/CallbackVoid.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjemploRetrofit2/out/production/EjemploRetrofit2/Libro.class" beforeDir="false" afterPath="$PROJECT_DIR$/../EjemploRetrofit2/out/production/EjemploRetrofit2/Libro.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjemploRetrofit2/out/production/EjemploRetrofit2/LibroCallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/../EjemploRetrofit2/out/production/EjemploRetrofit2/LibroCallback.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjemploRetrofit2/out/production/EjemploRetrofit2/LibroInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/../EjemploRetrofit2/out/production/EjemploRetrofit2/LibroInterface.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjemploRetrofit2/out/production/EjemploRetrofit2/ListLibroCallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/../EjemploRetrofit2/out/production/EjemploRetrofit2/ListLibroCallback.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjemploRetrofit2/out/production/EjemploRetrofit2/Principal.class" beforeDir="false" afterPath="$PROJECT_DIR$/../EjemploRetrofit2/out/production/EjemploRetrofit2/Principal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjemploRetrofit2/src/LibroInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EjemploRetrofit2/src/LibroInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjemploRetrofit2/src/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EjemploRetrofit2/src/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/LibroHandlerModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/LibroHandlerModel.php" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="PhpServers">
+    <servers>
+      <server host="biblioteca.devel" id="b392ee7f-e490-483b-bc1c-af0a397b02fc" name="biblioteca.devel" port="8080" use_path_mappings="true">
+        <path_mappings>
+          <mapping local-root="$PROJECT_DIR$" remote-root="/var/www/biblioteca.devel" />
+        </path_mappings>
+      </server>
+    </servers>
+  </component>
+  <component name="PhpWebServerValidation" deployment_server_id="941ee6df-a75e-4475-bf5d-a9a698c711f0" path_to_validation_script="$PROJECT_DIR$" selected_validation_type="REMOTE" web_path_to_validation_script="http://127.0.0.1/" />
+  <component name="ProjectId" id="1Ts31unl5FkKbiI1iiJd8DYQqtR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="get libro 2" type="PhpHttpRequestRunConfigurationType" factoryName="PHP HTTP Request" server_name="biblioteca.devel" url="/libro/3">
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4ab879b7-9749-4095-b10c-9bb69d7adcfc" name="Default Changelist" comment="" />
+      <created>1574234763047</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574234763047</updated>
+      <workItem from="1574234764272" duration="110000" />
+      <workItem from="1574234968751" duration="6241000" />
+      <workItem from="1574767138707" duration="1522000" />
+      <workItem from="1574839635043" duration="2337000" />
+      <workItem from="1575370319968" duration="2570000" />
+      <workItem from="1575444127173" duration="1957000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
