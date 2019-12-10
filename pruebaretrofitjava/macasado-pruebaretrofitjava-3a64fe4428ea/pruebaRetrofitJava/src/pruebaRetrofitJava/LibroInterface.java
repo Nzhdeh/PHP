@@ -1,8 +1,7 @@
 package pruebaRetrofitJava;
 import jdk.nashorn.internal.codegen.CompilerConstants;
 import retrofit2.Call;
-import retrofit2.http.GET;
-import retrofit2.http.Path;
+import retrofit2.http.*;
 
 import java.util.List;
 import java.util.Observable;
@@ -27,5 +26,5 @@ public interface LibroInterface
 
 	//guarda
 	@POST("/api/v1/libro")
-	Observable<Void> savePost(@Body Libro nuevoLibro);
+	Call<Void> savePost(@Body Libro nuevoLibro);//Observable
 }

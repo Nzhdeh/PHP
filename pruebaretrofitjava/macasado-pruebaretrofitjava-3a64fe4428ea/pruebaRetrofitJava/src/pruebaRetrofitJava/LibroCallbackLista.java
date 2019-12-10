@@ -1,14 +1,16 @@
 package pruebaRetrofitJava;
 
 import com.sun.net.httpserver.Headers;
+import com.sun.org.glassfish.external.amx.MBeanListener;
 import jdk.nashorn.internal.codegen.CompilerConstants;
 
 import javax.xml.ws.Response;
 import java.util.ArrayList;
 import java.util.List;
 import retrofit2.Call;
+import retrofit2.Callback;
 
-public class LibroCallbackLista
+public class LibroCallbackLista implements Callback<List<Libro>>
 {
     @Override
     public void onResponse(Call<List<Libro>> call, Response<List<Libro>> response) {

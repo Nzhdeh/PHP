@@ -1,12 +1,10 @@
 package pruebaRetrofitJava;
 
-import retrofit2.Call;
-import retrofit2.Callback;
-import retrofit2.Response;
 import okhttp3.Headers;
+import retrofit2.*;
 
 //mejor un callback para cada consulta get post etc
-public class LibroCallback implements Callback<Libro>{
+public class LibroCallback implements Callback<Libro> {
 
 	@Override
 	public void onFailure(Call<Libro> arg0, Throwable arg1)
