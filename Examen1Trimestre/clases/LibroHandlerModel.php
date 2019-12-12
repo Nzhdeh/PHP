@@ -21,8 +21,8 @@ class LibroHandlerModel
             $query = "SELECT " ." L.". \ConstantesDB\ConsLibrosModel::COD . ","
                 ." L.". \ConstantesDB\ConsLibrosModel::TITULO . "," .\ConstantesDB\ConsFormatoModel::NOMBRE ."," .\ConstantesDB\ConsFormatoModel::NUMPAG .
                  " FROM " . \ConstantesDB\ConsLibrosModel::TABLE_NAME ." as L "
-            . " inner join ". \ConstantesDB\ConsLibrosFormatoModel::TABLE_NAME ." as LF " . " on ". " L.".\ConstantesDB\ConsLibrosModel::COD." = "." LF".\ConstantesDB\ConsLibrosFormatoModel::CODLIBRO
-            ." inner join ". \ConstantesDB\ConsFormatoModel::TABLE_NAME . "as F ". " on ". " LF.".\ConstantesDB\ConsLibrosFormatoModel::CODLIBRO." = "." F.".\ConstantesDB\FormatoModel::ID;
+            . " inner join ". \ConstantesDB\ConsLibrosFormatoModel::TABLE_NAME ." as LF " . " on ". " L.".\ConstantesDB\ConsLibrosModel::COD." = "." LF".\ConstantesDB\ConsLibrosFormatoModel::CODLIBRO;
+            //." inner join ". \ConstantesDB\ConsFormatoModel::TABLE_NAME . "as F ". " on ". " LF.".\ConstantesDB\ConsLibrosFormatoModel::CODLIBRO." = "." F.".\ConstantesDB\FormatoModel::ID;
 
             //esto es para cuando queremos un libro en concreto
             if ($id != null) {
@@ -77,8 +77,8 @@ class LibroHandlerModel
             $query = "SELECT " ." L.". \ConstantesDB\ConsLibrosModel::COD . ","
                 ." L.". \ConstantesDB\ConsLibrosModel::TITULO . "," .\ConstantesDB\ConsFormatoModel::NOMBRE ."," .\ConstantesDB\ConsFormatoModel::NUMPAG .
                 " FROM " . \ConstantesDB\ConsLibrosModel::TABLE_NAME ." as L "
-                . " inner join ". \ConstantesDB\ConsLibrosFormatoModel::TABLE_NAME ." as LF " . " on ". " L.".\ConstantesDB\ConsLibrosModel::COD." = "." LF".\ConstantesDB\ConsLibrosFormatoModel::CODLIBRO
-                ." inner join ". \ConstantesDB\ConsFormatoModel::TABLE_NAME . "as F ". " on ". " LF.".\ConstantesDB\ConsLibrosFormatoModel::CODLIBRO." = "." F.".\ConstantesDB\FormatoModel::ID;
+                . " inner join ". \ConstantesDB\ConsLibrosFormatoModel::TABLE_NAME ." as LF " . " on ". " L.".\ConstantesDB\ConsLibrosModel::COD." = "." LF".\ConstantesDB\ConsLibrosFormatoModel::CODLIBRO;
+                //." inner join ". \ConstantesDB\ConsFormatoModel::TABLE_NAME . "as F ". " on ". " LF.".\ConstantesDB\ConsLibrosFormatoModel::CODLIBRO." = "." F.".\ConstantesDB\FormatoModel::ID;
 
             //esto es para cuando queremos un libro en concreto
 //            if ($id != null) {

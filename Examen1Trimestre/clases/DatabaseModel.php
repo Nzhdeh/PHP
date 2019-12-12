@@ -45,7 +45,7 @@ class DatabaseModel
 
         // Try and connect to the database
         $this->_connection = new mysqli($config['host'], $config['root'],
-            $config['root'], $config['Libros']);
+            $config['root'], $config['Libros2']);
 
         // Error handling
         if ($this->_connection->connect_error) {
