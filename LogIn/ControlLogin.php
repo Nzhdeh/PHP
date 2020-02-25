@@ -20,9 +20,9 @@ if ($existe) {
     $passwCorrecta = password_verify($passw,$hash);
 
     if($passwCorrecta)
-        echo 'Contrasenia correcta';
+        echo 'Contraseñia correcta';
     else
-        echo 'Contrasenia incorrecta';
+        echo 'Contraseñia incorrecta';
 }
 //Si no
 else {

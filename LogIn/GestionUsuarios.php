@@ -52,7 +52,7 @@ class gestionUsuarios
     }
 
 
-    
+
     function obtenerHash($user){
 
         $conBD = ConexionBD::getInstance();
