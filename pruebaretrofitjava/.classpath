@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="macasado-pruebaretrofitjava-3a64fe4428ea/pruebaRetrofitJava/src"/>
+	<classpathentry kind="lib" path="macasado-pruebaretrofitjava-3a64fe4428ea/pruebaRetrofitJava/libs/converter-gson-2.1.0.jar"/>
+	<classpathentry kind="lib" path="macasado-pruebaretrofitjava-3a64fe4428ea/pruebaRetrofitJava/libs/gson-2.8.0.jar"/>
+	<classpathentry kind="lib" path="macasado-pruebaretrofitjava-3a64fe4428ea/pruebaRetrofitJava/libs/okhttp-3.4.2.jar"/>
+	<classpathentry kind="lib" path="macasado-pruebaretrofitjava-3a64fe4428ea/pruebaRetrofitJava/libs/okio-1.11.0.jar"/>
+	<classpathentry kind="lib" path="macasado-pruebaretrofitjava-3a64fe4428ea/pruebaRetrofitJava/libs/retrofit-2.1.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
